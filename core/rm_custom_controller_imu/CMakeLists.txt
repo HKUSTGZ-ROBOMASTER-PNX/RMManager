@@ -67,6 +67,7 @@ install(TARGETS rm_custom_controller_imu_component
   ARCHIVE DESTINATION lib
   LIBRARY DESTINATION lib
   RUNTIME DESTINATION bin
+  INCLUDES DESTINATION include
 )
 
 install(FILES rm_custom_controller_imu.xml
